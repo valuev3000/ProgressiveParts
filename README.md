@@ -1,4 +1,3 @@
-ProgressiveParts
 ProgressiveParts is a mod for Kerbal Space Program 1.12 that adds tiered copies of existing parts with progressive characteristics: pressure and temperature. Each part receives improved versions (Tier 1–7) that:
 
 Become available as you progress through the tech tree.
