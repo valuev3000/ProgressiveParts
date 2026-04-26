@@ -1,4 +1,6 @@
-ProgressiveParts is a mod for Kerbal Space Program 1.12. 🚨The mod is designed for RSS, tested on KSRSS.🚨 which adds multi-level copies of existing parts with progressive characteristics: pressure and temperature. Every detail gets improved versions (Tier 1-7) that:
+ProgressiveParts is a mod for Kerbal Space Program 1.12. 🚨The mod is designed for RSS, tested on KSRSS. Without KSP-RO/RP-1🚨 which adds multi-level copies of existing parts with progressive characteristics: pressure and temperature. 
+
+Every detail gets improved versions (Tier 1-7) that:
 
 Become available as you progress through the tech tree.
 
