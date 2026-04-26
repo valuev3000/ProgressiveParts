@@ -1,103 +1,104 @@
-ProgressiveParts — это мод для Kerbal Space Program 1.12, который добавляет многоуровневые копии существующих деталей с прогрессивными характеристиками: давление и температура. Каждая деталь получает улучшенные версии (Tier 1–7), которые:
+ProgressiveParts
+ProgressiveParts is a mod for Kerbal Space Program 1.12 that adds tiered copies of existing parts with progressive characteristics: pressure and temperature. Each part receives improved versions (Tier 1–7) that:
 
-Становятся доступны по мере продвижения по технологическому дереву.
+Become available as you progress through the tech tree.
 
-Имеют повышенную массу, ёмкость батарей, научную ценность и другие параметры.
+Have increased mass, battery capacity, science value and other parameters.
 
-Требуют от игрока учитывать давление, температуру и радиацию благодаря интеграции с модом Kerbalism.
+Require the player to consider pressure, temperature and radiation thanks to integration with the Kerbalism mod.
 
-🚀 Возможности
-7 уровней улучшений (Tier 1 … Tier 7) для каждого поддерживаемого типа деталей.
+🚀 Features
+7 upgrade tiers (Tier 1 … Tier 7) for each supported part type.
 
-Автоматическая привязка к технологическому дереву — копии открываются в узлах, соответствующих их Tier (совместимо со стандартным TechTree.cfg или Community Tech Tree).
+Automatic tech tree placement – copies unlock in nodes matching their tier (compatible with stock TechTree.cfg or Community Tech Tree).
 
-Поддержка разных категорий деталей:
+Support for different part categories:
 
-Аккумуляторы (ProgressiveParts_Battery)
+Batteries (ProgressiveParts_Battery)
 
-Командные модули / зонды (ProgressiveParts_Command, ProgressiveParts_Probe)
+Command modules / probes (ProgressiveParts_Command, ProgressiveParts_Probe)
 
-Теплозащита (ProgressiveParts_Heatshield)
+Heatshields (ProgressiveParts_Heatshield)
 
-Освещение (ProgressiveParts_Light)
+Lights (ProgressiveParts_Light)
 
-РИТЭГи (ProgressiveParts_RTG)
+RTGs (ProgressiveParts_RTG)
 
-Научные приборы (ProgressiveParts_Science)
+Science instruments (ProgressiveParts_Science)
 
-Колёса / движители (ProgressiveParts_Wheel)
+Wheels / actuators (ProgressiveParts_Wheel)
 
-Модификации характеристик для каждого уровня:
+Stat modifications per tier (different progression curves per category):
 
-Для разной категории детали свой шаг развития
+Mass: 1.0 → 7.0
 
-Масса: 1.0 → 7.0, 
+Battery capacity: 1.0 → 4.3
 
-Ёмкость батарей: 1.0 → 4.3
+Actuator speed and range (gimbals, robotics) – in testing ⚠️
 
-Скорость и диапазон актуаторов (гирборды, роботика) - в тестировании⚠️
+Light power and range – in testing ⚠️
 
-Мощность и дальность света - в тестировании⚠️ 
+Parachute drag and deployment speed – in testing ⚠️
 
-Сопротивление парашютов и скорость раскрытия - в тестировании⚠️
+Environmental requirements (pressure, temperature) via Kerbalism. Values increase progressively with tier.
 
-Требования к окружающей среде (давление, температура) через мод Kerbalism. Значения прогрессивно возрастают с уровнем.
+📦 Included files
+The mod is distributed as a set of configuration files, each handling a specific part category:
 
-📦 Состав
-Мод поставляется в виде набора конфигурационных файлов, каждый из которых отвечает за определённую категорию деталей:
+ProgressiveParts_Battery.cfg – battery copies
 
-ProgressiveParts_Battery.cfg — копии аккумуляторов.
+ProgressiveParts_Command.cfg – command module copies
 
-ProgressiveParts_Command.cfg — копии командных модулей.
+ProgressiveParts_Heatshield.cfg – heatshield copies
 
-ProgressiveParts_Heatshield.cfg — копии теплозащиты.
+ProgressiveParts_Light.cfg – light copies
 
-ProgressiveParts_Light.cfg — копии источников света.
+ProgressiveParts_Probe.cfg – probe / computer copies
 
-ProgressiveParts_Probe.cfg — замена зондов и процессоров.
+ProgressiveParts_RTG.cfg – RTG copies
 
-ProgressiveParts_RTG.cfg — копии РИТЭГов.
+ProgressiveParts_Science.cfg – science instrument copies
 
-ProgressiveParts_Science.cfg — копии научных приборов.
+ProgressiveParts_Wheel.cfg – wheel / actuator copies
 
-ProgressiveParts_Wheel.cfg — копии колёс и створок.
+🛠️ Installation
+🚨 Note: The mod was originally developed for CTT, Kerbalism and DMagic Orbital Science. 🚨
 
-🛠️ Установка
-🚨🚨🚨Примечание: мод изначально готовился для дерева CTT и Kerbalism и  DMagic Orbital Science🚨🚨🚨
-Установите моду:
+Install the following required mods:
 
 Kerbalism
 
-ModuleManager 
+ModuleManager
 
 Community Tech Tree
 
-Скачайте последний релиз ProgressiveParts.
+Download the latest ProgressiveParts release.
 
-Поместите содержимое архива в папку GameData.
+Place the archive contents into your GameData folder.
 
-Убедитесь, что файлы ProgressiveParts_*.cfg находятся в любой подпапке GameData (например, GameData/ProgressiveParts).
+Make sure the ProgressiveParts_*.cfg files are located in any subfolder under GameData (e.g. GameData/ProgressiveParts).
 
-🔧 Совместимость
-🚨🚨🚨Стандартное технологическое дерево — тестов нет.🚨🚨🚨
-Kerbalism — требуется для работы.
+🔧 Compatibility
+🚨 Stock tech tree – not tested. 🚨
 
-Community Tech Tree — поддерживается, узлы автоматически назначаются на основе стоимости.
+Kerbalism – required for the pressure/temperature mechanics.
 
-Другие моды: скрипт поиска распознаёт детали из модулей DMagic Orbital Science, Station Science Continued, SCANsat, Near Future Exploration и многих других.
+Community Tech Tree – fully supported; nodes are assigned based on part cost.
 
-🎮 Игровой процесс
-С каждым новым уровнем:
+Other mods – the search script recognises parts from DMagic Orbital Science, Station Science Continued, SCANsat, Near Future Exploration and many others.
 
-Масса детали увеличивается (улучшенное оборудование тяжелее).
+🎮 Gameplay
+With each new tier:
 
-Эффективность растёт: батареи держат больше заряда, научные приборы дают больше очков.
+Part mass increases (upgraded equipment is heavier).
 
-Требования к окружающей среде ужесточаются: детали высокого уровня выходят из строя при экстремальных давлениях или температурах, если не обеспечить защиту.
+Effectiveness grows: batteries hold more charge, science instruments yield more science.
 
-Это побуждает игрока продумывать конструкцию кораблей и использовать экранирование, теплозащиту и радиационную защиту, что особенно актуально в реалистичных модах (KSRSS, RSS/RO).
+Environmental requirements become stricter: high‑tier parts will fail under extreme pressure or temperature unless properly protected.
 
-📄 Лицензия
-MIT — свободное использование, модификация и распространение.
+This encourages careful ship design, using shielding, heat protection and radiation hardening – especially relevant in realistic mods like KSRSS, RSS/RO.
 
-ProgressiveParts делает ваш путь от первых спутников до межпланетных зондов более насыщенным, добавляя технологическую прогрессию и экологические вызовы. Поддержите развитие звёздочкой на GitHub!
+📄 License
+MIT – free use, modification and distribution.
+
+ProgressiveParts makes your journey from first satellites to interplanetary probes richer by adding technological progression and environmental challenges. Support the development with a star on GitHub!
