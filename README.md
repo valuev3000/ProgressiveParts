@@ -4,14 +4,14 @@ Every detail gets improved versions (Tier 1-7) that:
 
 Become available as you progress through the tech tree.
 
-Have increased mass, battery capacity, science value and other parameters.
+Have increased mass, battery capacity and other parameters.
 
-Require the player to consider pressure, temperature and radiation thanks to integration with the Kerbalism mod.
+Require the player to consider pressure, temperature thanks to integration with the Kerbalism mod.
 
 🚀 Features
 7 upgrade tiers (Tier 1 … Tier 7) for each supported part type.
 
-Automatic tech tree placement – copies unlock in nodes matching their tier (compatible with stock TechTree.cfg or Community Tech Tree).
+Automatic tech tree placement – copies unlock in nodes matching their tier (compatible or Community Tech Tree).
 
 Support for different part categories:
 
@@ -35,12 +35,6 @@ Mass: 1.0 → 7.0
 
 Battery capacity: 1.0 → 4.3
 
-Actuator speed and range (gimbals, robotics) – in testing ⚠️
-
-Light power and range – in testing ⚠️
-
-Parachute drag and deployment speed – in testing ⚠️
-
 Environmental requirements (pressure, temperature) via Kerbalism. Values increase progressively with tier.
 
 📦 Included files
@@ -61,6 +55,18 @@ ProgressiveParts_RTG.cfg – RTG copies
 ProgressiveParts_Science.cfg – science instrument copies
 
 ProgressiveParts_Wheel.cfg – wheel / actuator copies
+
+## 📋 Planned Features
+These features are planned for future releases of ProgressiveParts. Your feedback helps prioritize them!
+☢️ Radiation - Introduce radiation tolerance requirements for high‑tier parts. Players will need to add shielding for long‑duration or interplanetary missions.
+🔧 Part Wear & Tear - Parts will gradually degrade over time or after repeated use, encouraging maintenance, repair, and replacement.
+📡 Antenna Power - Upgraded antenna copies will have increased range and higher data transmission speeds. Partially implemented – to be refined.
+🪂 Parachute Power - Advanced parachutes will feature higher drag and faster deployment times.
+
+### Long‑term vision
+- Make technological progression more meaningful and challenging.
+- Add new environmental and durability‑based gameplay layers.
+- Expand compatibility with other mods (KSRSS, RSS/RO, Far Future Technologies, etc.).
 
 🛠️ Installation
 🚨 Note: The mod was originally developed for CTT, Kerbalism and DMagic Orbital Science. 🚨
@@ -86,7 +92,7 @@ Kerbalism – required for the pressure/temperature mechanics.
 
 Community Tech Tree – fully supported; nodes are assigned based on part cost.
 
-Other mods – the search script recognises parts from DMagic Orbital Science, Station Science Continued, SCANsat, Near Future Exploration and many others.
+Other mods: DMagic Orbital Science, Station Science Continued, SCANsat, Near Future Exploration and many others.
 
 🎮 Gameplay
 With each new tier:
