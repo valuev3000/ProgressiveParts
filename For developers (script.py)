@@ -1,0 +1,24 @@
+ProgressiveParts is a generator of multi-level copies of parts for KSP with Kerbalism integration.
+
+This script scans the GameData folder of the specified KSP installation, finds all the parts
+corresponding to the specified categories (probes, command modules, batteries, RTG, wheels,
+thermal protection, lighting, parachutes), and creates progressive copies for them (Tier 1..Tier N).
+
+Each category has its own list of technological nodes (from early to late).
+The pressure and temperature for each copy are calculated by linear interpolation between
+PRESSURE_MIN/PRESSURE_MAX and TEMP_MIN/TEMP_MAX depending on the position of the node in the progression.
+
+Different performance modifiers are used for different types of parts.:
+- Weight (all categories)
+- Battery capacity
+- Antenna range (antenna/comm)
+- Speed and range of actuators (gearboards, robotics)
+- Power and range of light (light)
+- Aerodynamic drag and opening speed (parachute)
+
+The output file (TieredPartsByCategory.cfg) contains blocks +PART[...], which, if
+ModuleManager is available, will add copies of parts with the required characteristics to the game.
+and by linking to the technology tree.
+
+Usage:
+python ProgressiveParts_1.0.py [path_cgamedata]
