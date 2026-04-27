@@ -58,10 +58,10 @@ ProgressiveParts_Wheel.cfg – wheel / actuator copies
 
 ## 📋 Planned Features
 These features are planned for future releases of ProgressiveParts. Your feedback helps prioritize them!
-☢️ Radiation - Introduce radiation tolerance requirements for high‑tier parts. Players will need to add shielding for long‑duration or interplanetary missions.
-🔧 Part Wear & Tear - Parts will gradually degrade over time or after repeated use, encouraging maintenance, repair, and replacement.
-📡 Antenna Power - Upgraded antenna copies will have increased range and higher data transmission speeds. Partially implemented – to be refined.
-🪂 Parachute Power - Advanced parachutes will feature higher drag and faster deployment times.
+- ☢️ Radiation - Introduce radiation tolerance requirements for high‑tier parts. Players will need to add shielding for long‑duration or interplanetary missions.
+- 🔧 Part Wear & Tear - Parts will gradually degrade over time or after repeated use, encouraging maintenance, repair, and replacement.
+- 📡 Antenna Power - Upgraded antenna copies will have increased range and higher data transmission speeds. Partially implemented – to be refined.
+- 🪂 Parachute Power - Advanced parachutes will feature higher drag and faster deployment times.
 
 ### Long‑term vision
 - Make technological progression more meaningful and challenging.
