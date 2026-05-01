@@ -56,6 +56,8 @@ ProgressiveParts_Science.cfg – science instrument copies
 
 ProgressiveParts_Wheel.cfg – wheel / actuator copies
 
+🚨lists_MODs.txt - List of mods used🚨
+
 ## 📋 Planned Features
 These features are planned for future releases of ProgressiveParts. Your feedback helps prioritize them!
 - ☢️ Radiation - Introduce radiation tolerance requirements for high‑tier parts. Players will need to add shielding for long‑duration or interplanetary missions.
