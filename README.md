@@ -25,8 +25,8 @@ It integrates deeply with **Kerbalism** – higher-tier parts demand better pres
 | `KSRSS_Config_Planets.cfg` | KSRSS planet config |
 | `lists_MODs.txt` | List of used mods |
 
-## 🛠️ Installation Thanks for the mods provided
-
+## 🛠️ Installation 
+Thanks for the mods provided
 - [Kerbalism](https://forum.kerbalspaceprogram.com/topic/190382-15-110-kerbalism-311/)
 - [ModuleManager](https://forum.kerbalspaceprogram.com/topic/50533-18x-112x-module-manager-423-july-03th-2023-fireworks-season/)
 - [Community Tech Tree](https://forum.kerbalspaceprogram.com/topic/90530-112x-community-tech-tree-august-13/)
