@@ -1,113 +1,77 @@
-ProgressiveParts is a mod for Kerbal Space Program 1.12. 🚨The mod is designed for RSS, tested on KSRSS. Without KSP-RO/RP-1🚨 which adds multi-level copies of existing parts with progressive characteristics: pressure and temperature. 
+# ProgressiveParts
 
-Every detail gets improved versions (Tier 1-7) that:
+**ProgressiveParts** is a mod for Kerbal Space Program 1.12 that adds tiered copies of existing parts with progressively better stats. Each part gets up to 7 levels (1–7), unlocked as you advance through the tech tree. The mod was designed for RSS and tested with KSRSS, but does not require RO/RP-1.
 
-Become available as you progress through the tech tree.
+It integrates deeply with **Kerbalism** – higher-tier parts demand better pressure and temperature tolerance, encouraging proper ship shielding and thermal control.
 
-Have increased mass, battery capacity and other parameters.
+## 🚀 Features
 
-Require the player to consider pressure, temperature thanks to integration with the Kerbalism mod.
+- **7 upgrade levels** for each supported part type (Level 1 … Level 7)
+- **Automatic tech tree placement** – copies appear in nodes matching their level (Community Tech Tree preferred)
+- **Kerbalism environment requirements** (pressure, temperature) – values increase with each level
+- **Increased mass, battery capacity, and other stats** as you go up the tiers
+- **Future-proof design** – planned support for radiation and wear
 
-🚀 Features
-7 upgrade tiers (Tier 1 … Tier 7) for each supported part type.
+## 📦 Included Configuration Files
 
-Automatic tech tree placement – copies unlock in nodes matching their tier (compatible or Community Tech Tree).
+| File | Purpose |
+|------|---------|
+| `ProgressiveParts_Global_Config.cfg` | Main global settings |
+| `ProgressiveParts_Antenna-rover.cfg` | Rover antenna upgrades |
+| `ProgressiveParts_Battery.cfg` | Battery upgrades |
+| `ProgressiveParts_RTG.cfg` | RTG upgrades |
+| `ProgressiveParts_Science.cfg` | Science part upgrades |
+| `ProgressiveParts_Wheel.cfg` | Wheel / motor upgrades |
+| `KSRSS_Config_Planets.cfg` | KSRSS planet config |
+| `lists_MODs.txt` | List of used mods |
 
-Support for different part categories:
+## 🛠️ Installation
 
-Batteries (ProgressiveParts_Battery)
+### Requirements
 
-Command modules / probes (ProgressiveParts_Command, ProgressiveParts_Probe)
+- [Kerbalism](https://forum.kerbalspaceprogram.com/topic/190382-15-110-kerbalism-311/)
+- [ModuleManager](https://forum.kerbalspaceprogram.com/topic/50533-18x-112x-module-manager-423-july-03th-2023-fireworks-season/)
+- [Community Tech Tree](https://forum.kerbalspaceprogram.com/topic/90530-112x-community-tech-tree-august-13/)
+- [DMagic Orbital Science](https://forum.kerbalspaceprogram.com/topic/59009-18x-dmagic-orbital-science-new-science-parts-v143-1122019/)
+- [Near Future Technologies](https://forum.kerbalspaceprogram.com/topic/155465-112x-near-future-technologies-september-6/)
 
-Heatshields (ProgressiveParts_Heatshield)
+### Steps
 
-Lights (ProgressiveParts_Light)
+1. Download the latest release of ProgressiveParts.
+2. Extract the archive into your `GameData` folder.
+3. Make sure all `ProgressiveParts_*.cfg` files are placed inside `GameData/ProgressiveParts/` (or any subfolder of `GameData`).
 
-RTGs (ProgressiveParts_RTG)
+> **Note:** The mod was originally developed for CTT, Kerbalism, and DMagic Orbital Science.
 
-Science instruments (ProgressiveParts_Science)
+## 🔧 Compatibility
 
-Wheels / actuators (ProgressiveParts_Wheel)
+- **Stock tech tree** – not tested, use at your own risk
+- **Kerbalism** – required for pressure/temperature mechanics
+- **Community Tech Tree** – fully supported; nodes are assigned based on part cost
+- **RSS / KSRSS** – designed for RSS, tested on KSRSS
 
-Stat modifications per tier (different progression curves per category):
+## 🎮 Gameplay Progression
 
-Mass: 1.0 → 7.0
+Each tier brings:
 
-Battery capacity: 1.0 → 4.3
+- **Increased mass** – upgraded equipment is heavier
+- **Better efficiency** – batteries hold more charge, science parts give more data
+- **Higher environmental demands** – high‑level parts fail under extreme pressure or temperature unless properly shielded
 
-Environmental requirements (pressure, temperature) via Kerbalism. Values increase progressively with tier.
-
-📦 Included files
-The mod is distributed as a set of configuration files, each handling a specific part category:
-
-ProgressiveParts_Battery.cfg – battery copies
-
-ProgressiveParts_Command.cfg – command module copies
-
-ProgressiveParts_Heatshield.cfg – heatshield copies
-
-ProgressiveParts_Light.cfg – light copies
-
-ProgressiveParts_Probe.cfg – probe / computer copies
-
-ProgressiveParts_RTG.cfg – RTG copies
-
-ProgressiveParts_Science.cfg – science instrument copies
-
-ProgressiveParts_Wheel.cfg – wheel / actuator copies
-
-🚨lists_MODs.txt - List of mods used🚨
+This encourages careful ship design with heat shields, radiation protection, and pressurised containers – especially relevant for realistic overhauls like KSRSS or RSS/RO.
 
 ## 📋 Planned Features
-These features are planned for future releases of ProgressiveParts. Your feedback helps prioritize them!
-- ☢️ Radiation - Introduce radiation tolerance requirements for high‑tier parts. Players will need to add shielding for long‑duration or interplanetary missions.
-- 🔧 Part Wear & Tear - Parts will gradually degrade over time or after repeated use, encouraging maintenance, repair, and replacement.
-- 📡 Antenna Power - Upgraded antenna copies will have increased range and higher data transmission speeds.
-- 🪂 Parachute Power - Advanced parachutes will feature higher drag and faster deployment times.
 
-### Long‑term vision
-- Make technological progression more meaningful and challenging.
-- Add new environmental and durability‑based gameplay layers.
-- Expand compatibility with other mods (KSRSS, RSS/RO, Far Future Technologies, etc.).
+- **☢️ Radiation tolerance** – high‑level parts will require radiation shielding for long‑duration or interplanetary missions
+- **🔧 Part wear** – parts degrade over time or after repeated use, requiring maintenance or replacement
+- **📡 Antenna power** – upgraded antennas will have longer range and higher data rates
+- **🔬 More science gains** – tiered science instruments yield more research points
+- **Better game balance** – make technological progress feel meaningful and challenging
 
-🛠️ Installation
-🚨 Note: The mod was originally developed for CTT, Kerbalism and DMagic Orbital Science. 🚨
+## 📄 License
 
-Install the following required mods:
+**MIT License** – you can use, modify, and distribute this mod without restrictions.
 
-Kerbalism
+---
 
-ModuleManager
-
-Community Tech Tree
-
-Download the latest ProgressiveParts release.
-
-Place the archive contents into your GameData folder.
-
-Make sure the ProgressiveParts_*.cfg files are located in any subfolder under GameData (e.g. GameData/ProgressiveParts).
-
-🔧 Compatibility
-🚨 Stock tech tree – not tested. 🚨
-
-Kerbalism – required for the pressure/temperature mechanics.
-
-Community Tech Tree – fully supported; nodes are assigned based on part cost.
-
-Other mods: DMagic Orbital Science, Station Science Continued, SCANsat, Near Future Exploration and many others.
-
-🎮 Gameplay
-With each new tier:
-
-Part mass increases (upgraded equipment is heavier).
-
-Effectiveness grows: batteries hold more charge, science instruments yield more science.
-
-Environmental requirements become stricter: high‑tier parts will fail under extreme pressure or temperature unless properly protected.
-
-This encourages careful ship design, using shielding, heat protection and radiation hardening – especially relevant in realistic mods like KSRSS, RSS/RO.
-
-📄 License
-MIT – free use, modification and distribution.
-
-ProgressiveParts makes your journey from first satellites to interplanetary probes richer by adding technological progression and environmental challenges. Support the development with a star on GitHub!
+*ProgressiveParts makes your journey from first satellites to interplanetary probes richer by adding meaningful tech progression and environmental challenges. Support development by leaving a star on GitHub!*
