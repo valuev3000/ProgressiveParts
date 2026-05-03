@@ -34,7 +34,7 @@ Thanks for the mods provided
 - [Near Future Technologies](https://forum.kerbalspaceprogram.com/topic/155465-112x-near-future-technologies-september-6/)
 - [ReStock and ReStock+](https://forum.kerbalspaceprogram.com/topic/182679-1125-restock-revamping-ksps-art-august-28/)
 
-### Other mods Thanks for the mods provided
+### Other mods
 - [KSRSS](https://forum.kerbalspaceprogram.com/topic/192818-beta-ksrss-07-kerbin-or-x25-sized-rss/)
 
 ### Steps
