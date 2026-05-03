@@ -25,9 +25,7 @@ It integrates deeply with **Kerbalism** – higher-tier parts demand better pres
 | `KSRSS_Config_Planets.cfg` | KSRSS planet config |
 | `lists_MODs.txt` | List of used mods |
 
-## 🛠️ Installation
-
-### Requirements
+## 🛠️ Installation Thanks for the mods provided
 
 - [Kerbalism](https://forum.kerbalspaceprogram.com/topic/190382-15-110-kerbalism-311/)
 - [ModuleManager](https://forum.kerbalspaceprogram.com/topic/50533-18x-112x-module-manager-423-july-03th-2023-fireworks-season/)
@@ -35,6 +33,9 @@ It integrates deeply with **Kerbalism** – higher-tier parts demand better pres
 - [DMagic Orbital Science](https://forum.kerbalspaceprogram.com/topic/59009-18x-dmagic-orbital-science-new-science-parts-v143-1122019/)
 - [Near Future Technologies](https://forum.kerbalspaceprogram.com/topic/155465-112x-near-future-technologies-september-6/)
 - [ReStock and ReStock+](https://forum.kerbalspaceprogram.com/topic/182679-1125-restock-revamping-ksps-art-august-28/)
+
+### Other mods Thanks for the mods provided
+- [KSRSS](https://forum.kerbalspaceprogram.com/topic/192818-beta-ksrss-07-kerbin-or-x25-sized-rss/)
 
 ### Steps
 
