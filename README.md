@@ -34,6 +34,7 @@ It integrates deeply with **Kerbalism** – higher-tier parts demand better pres
 - [Community Tech Tree](https://forum.kerbalspaceprogram.com/topic/90530-112x-community-tech-tree-august-13/)
 - [DMagic Orbital Science](https://forum.kerbalspaceprogram.com/topic/59009-18x-dmagic-orbital-science-new-science-parts-v143-1122019/)
 - [Near Future Technologies](https://forum.kerbalspaceprogram.com/topic/155465-112x-near-future-technologies-september-6/)
+- [ReStock and ReStock+](https://forum.kerbalspaceprogram.com/topic/182679-1125-restock-revamping-ksps-art-august-28/)
 
 ### Steps
 
