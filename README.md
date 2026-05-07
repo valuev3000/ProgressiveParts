@@ -17,6 +17,7 @@ It integrates deeply with **Kerbalism** – higher-tier parts demand better pres
 | File | Purpose |
 |------|---------|
 | `ProgressiveParts_Global_Config.cfg` | Main global settings |
+| `ProgressiveParts_Probe.cfg` | Probes part upgrades |
 | `ProgressiveParts_Antenna-rover.cfg` | Rover antenna upgrades |
 | `ProgressiveParts_Battery.cfg` | Battery upgrades |
 | `ProgressiveParts_RTG.cfg` | RTG upgrades |
